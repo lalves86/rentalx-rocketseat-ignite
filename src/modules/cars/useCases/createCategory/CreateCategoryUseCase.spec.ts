@@ -29,7 +29,7 @@ describe("Create category", () => {
   });
 
   it("Should not be able to create two categories with the same name", async () => {
-    expect(async () => {
+    await expect(async () => {
       const category = {
         name: "Category Test",
         description: "Category description test",
