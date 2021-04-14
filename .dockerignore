@@ -4,3 +4,4 @@ coverage
 .vscode
 .env
 dist
+nginx-reverse-proxy

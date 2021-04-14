@@ -6,3 +6,4 @@ coverage
 dist
 !tmp/.gitkeep
 ormconfig.json
+nginx-reverse-proxy
